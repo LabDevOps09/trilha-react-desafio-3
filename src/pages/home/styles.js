@@ -10,6 +10,23 @@ export const Container = styled.main`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
+`
+
+export const Wrapper = styled.div`
+    max-width: 200px;
+`
+
+export const Column = styled.div`
+    flex: 1;
+`
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
 `
 
 
