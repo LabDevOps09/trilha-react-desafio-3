@@ -4,15 +4,12 @@ import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
 import { api } from '../../services/api';
-
 import { useForm } from "react-hook-form";
 
-import { Container, Title, Column, TitleSignup, SubtitleSignup, Row, Wrapper } from './styles';
+import { Container, Title, Column, TitleSignup, SubtitleSignup, Row, Wrapper, CriarText } from './styles';
 
 const Signup = () => {
-
     const navigate = useNavigate();
-
     const { control, handleSubmit, formState: { errors } } = useForm({
         reValidateMode: 'onChange',
         mode: 'onChange',
